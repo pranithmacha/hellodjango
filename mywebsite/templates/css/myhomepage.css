@@ -5,10 +5,11 @@
 }
 #footer
 {
-	background-color:#FFA500;
+	background-color:#D5DCDA;
 	width:100%;
 	clear:both;
 	text-align:center;
+	color:#1C6186;
 	position:fixed;
 	bottom:0px;
 	left:0px
