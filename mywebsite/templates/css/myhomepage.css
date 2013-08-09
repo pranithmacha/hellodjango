@@ -1,4 +1,10 @@
-
+html {
+       overflow-y: scroll;
+}
+body
+{
+	background-color:#515555;
+}
 #container
 {
 	width:100%;
@@ -17,7 +23,7 @@
 
 #header
 {
-	background-color:#D5DCDA;
+	background-color:#515555;
 	width:100%;
 	height:120px;
 	text-align:center;
@@ -28,7 +34,7 @@
 
 #menu
 {
-	width:100px;
+	width:180px;
 	position:fixed;
 	left:20px;
 	top:120px;
@@ -37,9 +43,10 @@
 }
 a
 {
+	text-align:center;
 	text-decoration: none;
-    color: #208CC6;
-    font: 22px 'DINWebProRegular', helvetica, arial, serif;
+    color: #FAFEFD;
+    font: 20px 'DINWebProRegular', helvetica, arial, serif;
 	letter-spacing:1px
 }
 h2,h3{
@@ -47,8 +54,39 @@ h2,h3{
   font: 30px 'DINWebProRegular', helvetica, arial, serif;
 }
 h1{
-  color: #1C6186;
+  color:white;
   font: 72px 'DINWebProRegular', helvetica, arial, serif;
-  letter-spacing:3px
+  letter-spacing:3px;
+  margin-bottom:0;
 }
-
+#python
+{
+	height:120px;
+	left:20px;
+	top:260px;
+	width:169px;
+	background-color:#2F9EDA;
+	text-align:center;"
+}
+#django
+{
+	height:120px;
+	left:200px;
+	top:260px;
+	width:169px;
+	background-color:#F69B25;
+	text-align:center;"
+}
+#flask
+{
+	height:120px;
+	left:380px;
+	top:260px;
+	width:169px;
+	background-color:#61D2C6;
+	text-align:center;"
+}
+ul
+{
+    list-style-type: none;
+}
