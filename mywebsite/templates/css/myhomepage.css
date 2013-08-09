@@ -16,6 +16,7 @@
 
 #header
 {
+	background-color:#D5DCDA;
 	width:100%;
 	height:120px;
 	text-align:center;
@@ -36,7 +37,7 @@
 a
 {
 	text-decoration: none;
-    color: #86ac3a;
+    color: #208CC6;
     font: 22px 'DINWebProRegular', helvetica, arial, serif;
 	letter-spacing:1px
 }
@@ -45,7 +46,7 @@ h2,h3{
   font: 30px 'DINWebProRegular', helvetica, arial, serif;
 }
 h1{
-  color: #86ac3a;
+  color: #1C6186;
   font: 72px 'DINWebProRegular', helvetica, arial, serif;
   letter-spacing:3px
 }
