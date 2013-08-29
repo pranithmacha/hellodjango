@@ -1,0 +1,13 @@
+
+
+{% extends "basepage.html" %}
+
+{% block content %}
+<div id="menu">
+	<ul>
+	        {% for item in list %}
+	          <a><li><h3> {{item}}</h3></li></a>
+	        {% endfor %}
+	    </ul>
+</div>
+{% endblock %}

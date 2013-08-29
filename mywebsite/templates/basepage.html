@@ -2,35 +2,21 @@
 
 <html>
 <head>
-	
+    <link rel="stylesheet" type="text/css" href="site_media/css/myhomepage.css">
 </head>
 
-<body background="site_media/images/mac.jpg">
-	<div style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
-      <h2> <a href="http://blog.machaiswho.im/" style="text-decoration: none"> Blog </a></h2>
-      <h2> <a href="http://blog.machaiswho.im/" style="text-decoration: none"> Profile </a></h2>
-      <h2> <a href="http://blog.machaiswho.im/" style="text-decoration: none"> Contact </a></h2>
-	   <h2> <a href="http://blog.machaiswho.im/" style="text-decoration: none"> Test </a></h2>
-	<ul>
-	<li><div id="python">
-		<h2> <a href="http://www.diveintopython.net/toc/index.html"> python </a></h2>
-	</div></li>
-	<li><div id="django">
-		 <h2> <a href="http://www.djangobook.com/en/2.0/index.html"> django </a></h2>
-	</div></li>
-	<li><div style="height:80px;top:260px;width:169px;background-color:#61D2C6;text-align:center;">
-		 <h2> <a href="http://flask.pocoo.org/"> flask </a></h2>
-	</div></li>
-	<li><div id="flask">
-		  <h2> <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/"> beautiful soup </a></h2>
-	</div></li>
-	<li><div style="height:80px;top:260px;width:169px;background-color:#61D2C6;text-align:center;">
-		 <h2> <a href="http://bottlepy.org/docs/dev/"> bottle </a></h2>
-	</div>	</li>
-</ul>   
-	  
-    </div>
+<!-- <body background="site_media/images/mac.jpg"> -->
+<body>
+
+	<div id="container">
+		<div id="header">
+			<h1> state knowledge </h1>
+	        {% block content %}{% endblock %}
+		</div>
+	    <div id="footer">
+	        Copyright © django powered 
+		</div>
+	</div>
+	
 </body>
 </html> 
-
-

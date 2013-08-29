@@ -1,29 +1,12 @@
 
+{% extends "basepage.html" %}
 
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="site_media/css/myhomepage.css">
-</head>
-
-<!-- <body background="site_media/images/mac.jpg"> -->
-<body>
-
-	<div id="container">
-		<div id="header">
-	        <h1>play with python</h1>
-		</div>
-	    <div id="menu">
-			<div style="left:20px;top:140px">
-			<img src="site_media/images/blue.jpg" style="left:20px;top:140px">
-			<img src="site_media/images/green.jpg" style="left:120px;top:140px">
-			<img src="site_media/images/red.jpg">
-			<img src="site_media/images/orange.jpg">
-		  
-	    </div>
-	    <div id="footer">
-	        Copyright © django powered 
-		</div>
-	</div>
-	
-</body>
-</html> 
+{% block content %}
+<div id="menu">
+	<ul>
+		<li><a href="regions"> <h2>regions</h2> </a></li>
+		<li><a href="districts"><h2> districts </h2> </a></li>
+    </ul>
+</div>
+		
+{% endblock %}
