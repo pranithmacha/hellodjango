@@ -1,12 +1,14 @@
 
-{% extends "basepage.html" %}
+{% extends "base.html" %}
 
 {% block content %}
 
 		<ul>
-		{% for district in districts %}
-			<li><a href="districts/{{district}}"><h3>{{ district }}</h3></a></li>
-		{% endfor %}
+			{% if districts%}
+				{% for district in districts %}
+					<li><a href="{% url 'mywebsite.views.district' district %}">{{ district }} </a></li>
+				{% endfor %}
+			{% endif%}
 		</ul>
 
 {% endblock %}

@@ -1,0 +1,26 @@
+
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="site_media/css/myhomepage.css">
+	
+	<title> {% block title %} State Knowledge {% endblock %}
+</head>
+
+<!-- <body background="site_media/images/mac.jpg"> -->
+<body>
+ 
+	<div id="container">
+		<div id="header">
+			<h1> state knowledge </h1>
+			<div id="menu">
+	        {% block content %}{% endblock %}
+		    </div>
+		</div>
+	    <div id="footer">
+	        Copyright © django powered 
+		</div>
+	</div>
+	
+</body>
+</html> 
