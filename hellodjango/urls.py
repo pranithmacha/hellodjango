@@ -9,7 +9,9 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'mywebsite.views.home', name=''),
     url(r'^regions$', 'mywebsite.views.regions', name='regions'),
+    url(r'^region/(?P<region>.*)$', 'mywebsite.views.region', name='region'),
     url(r'^districts$', 'mywebsite.views.districts', name='districts'),
+    
     # url(r'^$', 'hellodjango.views.home', name='home'),
     # url(r'^hellodjango/', include('hellodjango.foo.urls')),
 

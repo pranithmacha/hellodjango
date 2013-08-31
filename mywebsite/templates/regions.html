@@ -1,12 +1,11 @@
 
-
 {% extends "basepage.html" %}
 
 {% block content %}
 
 		<ul>
-		{% for item in list %}
-			<li><a href="region/{{item}}"><h3>{{ item }}</h3></a></li>
+		{% for region in regions %}
+			<li><a href="region/{{region}}"><h3>{{ region }}</h3></a></li>
 		{% endfor %}
 		</ul>
 

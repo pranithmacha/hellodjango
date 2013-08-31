@@ -1,0 +1,13 @@
+
+{% extends "basepage.html" %}
+
+{% block content %}
+
+		<ul>
+		{% for district in districts %}
+			<li><a href="districts/{{district}}"><h3>{{ district }}</h3></a></li>
+		{% endfor %}
+		</ul>
+
+{% endblock %}
+
