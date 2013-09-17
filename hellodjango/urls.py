@@ -9,9 +9,9 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'mywebsite.views.home', name='home'),
     url(r'^nike$', 'mywebsite.views.nike', name='nike'),
-    url(r'^create_user', 'AppClient.views.create_user', name=''),
-    url(r'^todo', 'AppClient.views.todo', name=''),
-    url(r'^create_todo', 'AppClient.views.createtodo', name=''),
+    url(r'^create_user', 'mywebsite.views.create_user', name=''),
+    url(r'^todo', 'mywebsite.views.todo', name=''),
+    url(r'^create_todo', 'mywebsite.views.createtodo', name=''),
     
    
     
