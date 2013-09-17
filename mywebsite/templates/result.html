@@ -1,14 +1,25 @@
-
-
-{% extends "base.html" %}
-
-{% block content %}
-
-		<ul>
-		{% for item in list %}
-			<li><a href="region/{{item}}"><h3>{{ item }}</h3></a></li>
-		{% endfor %}
-		</ul>
-
-{% endblock %}
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type='text/css' rel='stylesheet'
+	href='site_media/css/bootstrap.css' />
+<title>result page</title>
+</head>
+<body>
+	<script src='site_media/js/bootstrap.js'></script>
+	<div>
+		<form class="well">
+			<label>message</label>
+			<h3>
+				<p>{{message}}</p>
+			</h3>
+			</br>
+			<label>message type</label>
+			<h3>
+				<p>{{messageType}}</p>
+			</h3>
+		</form>
+	</div>
+</body>
+</html>
