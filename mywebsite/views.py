@@ -42,8 +42,8 @@ method to create a user
     payload = {"name":userName,"id":userId}
     url = "http://nike-todo.aws.af.cm/users/"
     result = requests.post(url, data=payload).json()
-    result_json = result.json()
-    if result_json.has_key('message'):
+   
+    if 'message' in result:
         message = result_json['message']
         message_type =result_json['messageType']
         return render_to_response('result.html',{'message':message,'messageType':message_type})
