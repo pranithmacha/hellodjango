@@ -44,13 +44,13 @@ method to create a user
     result = requests.post(url, data=payload).json()
    
     if 'message' in result:
-        message = result_json['message']
-        message_type =result_json['messageType']
+        message = result['message']
+        message_type =result['messageType']
         return render_to_response('result.html',{'message':message,'messageType':message_type})
     else:
-        data = result_json['data']
+        data = result['data']
         name = data['name']
-        userId = result_json['id']
+        userId = result['id']
         return render_to_response('user_result.html',{'name':name,'userId':userId})
 
 def todo(request):
