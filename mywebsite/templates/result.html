@@ -4,7 +4,7 @@
 {% block content%}
 
 			
-			{% if {{status}}=="success"%}
+			{% ifequal status "success"%}
 			      
 			      
 	  			<label>userName is</label>
@@ -17,7 +17,7 @@
 	  				<p>{{userId}}</p>
 	  			</h3>
 			    
-			{% elif {{status}}=="failure" %}
+			{% elif status "failure" %}
 			<label>message</label>
 			<h3>
 				<p>{{message}}</p>
@@ -27,6 +27,6 @@
 			<h3>
 				<p>{{messageType}}</p>
 			</h3>
-			{% endif %}
+			{% endifequal %}
 
 {% endblock%}
