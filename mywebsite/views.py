@@ -46,12 +46,12 @@ method to create a user
     if 'message' in result:
         message = result['message']
         message_type =result['messageType']
-        return render_to_response('result.html',{'message':message,'messageType':message_type})
+        return render_to_response('result.html',{'message':message,'messageType':message_type,'status':'failure'})
     else:
         data = result['data']
         name = data['name']
         userId = result['id']
-        return render_to_response('user_result.html',{'name':name,'userId':userId})
+        return render_to_response('result.html',{'name':name,'userId':userId,'status':'success'})
 
 def todo(request):
     return render_to_response('CreateTodo.html',{},context_instance=RequestContext(request))
