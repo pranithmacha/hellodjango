@@ -4,8 +4,7 @@
 {% block content%}
 
 			
-			{% ifequal status "success"%}
-			      
+			{%ifequal status "success"%}    
 			      
 	  			<label>userName is</label>
 	  			<h3>
@@ -17,16 +16,16 @@
 	  				<p>{{userId}}</p>
 	  			</h3>
 			    
-			{% else status "failure" %}
-			<label>message</label>
-			<h3>
-				<p>{{message}}</p>
-			</h3>
-			</br>
-			<label>message type</label>
-			<h3>
-				<p>{{messageType}}</p>
-			</h3>
-			{% endifequal %}
+			{%else%}
+			    <label>message</label>
+			    <h3>
+				  <p>{{message}}</p>
+			    </h3>
+		 	    </br>
+			    <label>message type</label>
+			    <h3>
+				  <p>{{messageType}}</p>
+			    </h3>
+			{%endifequal%}
 
 {% endblock%}
