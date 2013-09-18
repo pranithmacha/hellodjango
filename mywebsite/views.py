@@ -41,7 +41,7 @@ method to create a user
         return render_to_response('CreateUser.html',{'error':error})
     payload = {"name":userName,"id":userId}
     url = "http://nike-todo.aws.af.cm/users/"
-    result = requests.post(url, data=payload)
+    result = requests.post(url, data=payload).json()
     result_json = json.loads(result)
     if result_json.has_key('message'):
         message = result_json['message']
