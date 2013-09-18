@@ -6,6 +6,7 @@ import requests
 from django.utils import simplejson
 import AppClientConstants
 from django.template import RequestContext
+import json
 
 
 
@@ -41,7 +42,7 @@ method to create a user
     payload = {"name":userName,"id":userId}
     url = "http://nike-todo.aws.af.cm/users/"
     result = requests.post(url, data=payload)
-    result_json = result.json()
+    result_json = json.loads(result)
     if result_json.has_key('message'):
         message = result_json['message']
         message_type =result_json['messageType']
