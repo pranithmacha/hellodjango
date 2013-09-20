@@ -21,7 +21,7 @@ def nike(request):
     """
 method to return the home page
 """
-    return render_to_response('CreateUser.html',context_instance=RequestContext(request))
+    return render_to_response('nikeapp.html')
 
 def create_user(request):
     """
