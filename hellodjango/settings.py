@@ -3,8 +3,11 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+import os
+PROJECT_DIR = os.path.dirname(__file__)
+
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+     ('pranith macha', 'pranith@machaiswho.im'),
 )
 
 MANAGERS = ADMINS
@@ -50,7 +53,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = os.path.join(PROJECT_DIR,'media')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -108,7 +111,9 @@ ROOT_URLCONF = 'hellodjango.urls'
 WSGI_APPLICATION = 'hellodjango.wsgi.application'
 
 TEMPLATE_DIRS = (
+
     'mywebsite/templates/',
+    os.path.join(PROJECT_DIR,'templates')
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -126,6 +131,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'mywebsite',
+    'nike',
 )
 
 # A sample logging configuration. The only tangible logging
