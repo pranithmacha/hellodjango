@@ -1,7 +1,7 @@
 # Create your views here.
 # Create your views here.
 from django.shortcuts import render_to_response,HttpResponse
-from mywebsite import validations.Validations
+from mywebsite.validations import Validations
 import requests
 from django.utils import simplejson
 from mywebsite import AppClientConstants
