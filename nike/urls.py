@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from mywebsite import views
+from nike import views
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -7,10 +7,11 @@ from mywebsite import views
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'mywebsite.views.home', name='home'),
-    url(r'^/nike$', 'mywebsite.views.nike', name='nike'),
-    url(r'^nike/$',include('events.urls'))
     
+    url(r'^create_user', 'nike.views.create_user', name='create-user'),
+    url(r'^todo', 'nike.views.todo', name='to-do'),
+    url(r'^create_todo', 'nike.views.createtodo', name='create-a-to-do'),
+       
     # url(r'^$', 'hellodjango.views.home', name='home'),
     # url(r'^hellodjango/', include('hellodjango.foo.urls')),
 
