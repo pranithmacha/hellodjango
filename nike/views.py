@@ -11,6 +11,10 @@ import json
 validation = Validations()
 
 def create_user(request):
+    return render_to_response('CreateUser.html')
+    
+
+def nike_create_user(request):
     """
 method to create a user
 """
