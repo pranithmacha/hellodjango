@@ -1,8 +1,7 @@
 {% extends "base.html"%}
 
 {% block content%}
-<form action="create_user" method="post" class="well">
-		{%csrf_token%}
+<form action="create_user" method="post" class="well">{% csrf_token %}
 			<label>user name</label>
 			<input name='userName' class="span3" placeholder="type your name here ..">{{userName}}</input>
 			<label>user id</label>

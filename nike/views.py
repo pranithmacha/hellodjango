@@ -11,7 +11,7 @@ import json
 validation = Validations()
 
 def create_user(request):
-    return render_to_response('CreateUser.html')
+    return render_to_response('CreateUser.html',{},context_instance=RequestContext(request))
     
 
 def nike_create_user(request):
@@ -20,12 +20,12 @@ method to create a user
 """
     name = request.POST['userName']
     uId = request.POST['userId']
-    if validation.check_valid_userName(name) == True:
+    if validation.check_valid_userName(name):
         userName = name
     else:
         error = AppClientConstants.VALID_NAME
         return render_to_response('CreateUser.html',{'error':error})
-    if validation.check_valid_userId(uId) == True:
+    if validation.check_valid_userId(uId):
         userId = uId
     else:
         error = AppClientConstants.VALID_USER_ID

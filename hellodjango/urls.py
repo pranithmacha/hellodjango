@@ -1,9 +1,8 @@
 from django.conf.urls import patterns, include, url
 from mywebsite import views
-import os
+import settings
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
+BASE_DIR = settings.BASE_DIR
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -11,7 +10,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'mywebsite.views.home', name=''),
+    url(r'^home$', 'mywebsite.views.home', name=''),
     url(r'^nike$', 'mywebsite.views.nike', name=''),
+    url(r'^contact$', 'mywebsite.views.contact', name='contact'),
+    url(r'^contact/', 'mywebsite.views.contact', name='contact'),
     url(r'^nike/',include('nike.urls')),
   
     
@@ -26,3 +28,4 @@ urlpatterns = patterns('',
     (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': BASE_DIR+'/templates/'}),
 )
+
