@@ -1,11 +1,43 @@
-{% extends "base.html"%}
 
-{% block content%}
+<html>
+<head>
+	<script src='/site_media/js/jquery.js'></script>
+	<link type='text/css' rel='stylesheet' href='/site_media/css/bootstrap.css' />
 
-<ul>
-	<li><a href='nike'><h2> nike app </h2></a></li>
-	<li><a href=''><h2> web scraper </h2></a></li>
-	<li><a href=''><h2> state project </h2></a></li>
-	<li><a href='contact'><h2> contact </h2></a></li>
-</ul>
-{% endblock%}
+	<script src='/site_media/js/main.js'></script>
+    <link rel="stylesheet" type="text/css" href="/site_media/css/myhomepage.css">
+    <link rel="stylesheet" type="text/css" href="/site_media/css/animate.css">
+	
+</head>
+
+<!-- <body background="site_media/images/mac.jpg"> -->
+<body>
+ 
+	<div id="container">
+		<div id="header">
+			<h1> My Python </h1>
+			<div id="menu">
+				<ul>
+					<li><a id='bounceleft' ><h2> nike app </h2></a></li>
+					<li><a href='' id='shake'><h2> web scraper </h2></a></li>
+					<li><a href=''><h2> state project </h2></a></li>
+					<li><a href='contact'><h2> contact </h2></a></li>
+				</ul>
+		    </div>
+		</div>
+		<a href='home'> home</a>
+	    <div id="footer">
+	        Copyright © django powered 
+		</div>
+	</div>
+
+	<script>
+	$('body').removeClass('animated bounceOutLeft');
+	$('#bounceleft').on('click',function(){	
+		$('body').addClass('animated bounceOutLeft');	
+
+		window.location='nike';
+	});
+	</script>
+</body>
+</html> 
