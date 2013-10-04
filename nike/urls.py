@@ -11,6 +11,7 @@ BASE_DIR = settings.BASE_DIR
 urlpatterns = patterns('',
     
     url(r'^create_user', 'nike.views.create_user', name='create-user'),
+    url(r'^nike_create_user', 'nike.views.nike_create_user', name='create-user'),
     url(r'^todos', 'nike.views.todo', name='to-do'),
     url(r'^create_todo', 'nike.views.createtodo', name='create-a-to-do'),
     

@@ -7,6 +7,7 @@ from django.utils import simplejson
 from mywebsite import AppClientConstants
 from django.template import RequestContext
 import json
+from models import posts
 
 validation = Validations()
 
@@ -18,6 +19,7 @@ def nike_create_user(request):
     """
 method to create a user
 """
+    print request
     name = request.POST['userName']
     uId = request.POST['userId']
     if validation.check_valid_userName(name):
@@ -37,12 +39,15 @@ method to create a user
     if 'message' in result:
         message = result['message']
         message_type =result['messageType']
-        return render_to_response('result.html',{'message':message,'messageType':message_type,'status':'failure'})
+        return render_to_response('result.html',{'message':message,'messageType':message_type,'status':'failure'},context_instance=RequestContext(request))
     else:
         data = result['data']
         name = data['name']
         userId = result['id']
-        return render_to_response('result.html',{'name':name,'userId':userId,'status':'success'})
+        print data,name,userId
+        blogPostData = posts(data=data,name=name,userId=userId)
+        blogPostData.save()
+        return render_to_response('result.html',{'name':name,'userId':userId,'status':'success'},context_instance=RequestContext(request))
 
 def todo(request):
     return render_to_response('CreateTodo.html',{},context_instance=RequestContext(request))
