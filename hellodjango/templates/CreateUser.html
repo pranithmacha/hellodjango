@@ -2,11 +2,11 @@
 
 {% block content%}
 <form action="nike_create_user" method="post" class="well">{% csrf_token %}
-			<label>user name</label>
-			<input name='userName' class="span3" placeholder="type your name here ..">{{userName}}</input>
-			<label>user id</label>
-			<input  name='userId' class="span3" placeholder="type your name here ..">{{userId}}</input>
-			<input type="submit"value="submit" class="btn btn-primary"></br>
+			<label>user name</label><br>
+			<input name='userName' class="span3" placeholder="type your name here ..">{{userName}}</input><br>
+			<label>user id</label><br>
+			<input  name='userId' class="span3" placeholder="type your name here ..">{{userId}}</input><br>
+			<input type="submit"value="submit" class="btn btn-primary">
 			{{error}}
 </form>
 {% endblock%}

@@ -1,5 +1,5 @@
 # Create your views here.
-# Create your views here.
+
 from django.shortcuts import render_to_response,HttpResponse
 from mywebsite.validations import Validations
 import requests
@@ -17,8 +17,8 @@ def create_user(request):
 
 def nike_create_user(request):
     """
-method to create a user
-"""
+    method to create a user
+    """
     print request
     name = request.POST['userName']
     uId = request.POST['userId']
@@ -48,6 +48,7 @@ method to create a user
         blogPostData = posts(data=data,name=name,userId=userId)
         blogPostData.save()
         return render_to_response('result.html',{'name':name,'userId':userId,'status':'success'},context_instance=RequestContext(request))
+
 
 def todo(request):
     return render_to_response('CreateTodo.html',{},context_instance=RequestContext(request))
