@@ -1,21 +1,24 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import (patterns, include, url)
 from mywebsite import views
 import settings
+from django.contrib import admin
+
 
 BASE_DIR = settings.BASE_DIR
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
-# admin.autodiscover()
+admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
+    url(r'^admin/',include(admin.site.urls)),
     url(r'^$', 'mywebsite.views.home', name=''),
     url(r'^home$', 'mywebsite.views.home', name=''),
-    url(r'^nike$', 'mywebsite.views.nike', name=''),
-    url(r'^contact$', 'mywebsite.views.contact', name='contact'),
-    url(r'^contact/', 'mywebsite.views.contact', name='contact'),
-    url(r'^nike/',include('nike.urls')),
-  
+    url(r'^projects$', 'mywebsite.views.projects', name='projects'),
+    url(r'^about$', 'mywebsite.views.about_me', name='about me'),
+    url(r'^contact$', 'mywebsite.views.contact', name='contact'),    
+    (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
+        {'document_root': BASE_DIR+'/templates/'}),
     
     # url(r'^$', 'hellodjango.views.home', name='home'),
     # url(r'^hellodjango/', include('hellodjango.foo.urls')),
@@ -25,7 +28,6 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-    (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
-        {'document_root': BASE_DIR+'/templates/'}),
+    
 )
 
