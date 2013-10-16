@@ -1,4 +1,6 @@
 from django.contrib import admin
-from hellodjango.mywebsite.models import Projects
+from mywebsite.models import Projects
+from nike.models import posts
 
 admin.site.register(Projects)
+admin.site.register(posts)
