@@ -10,5 +10,6 @@ class Projects(models.Model):
     git_link = models.TextField()
     website_link = models.TextField()
     
-    
+    class Meta:
+        verbose_name_plural = "Projects"
   

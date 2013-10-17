@@ -15,5 +15,6 @@ def about_me(request):
     return render_to_response("about.html")
     
 def projects(request):
+    
     return render_to_response("projects.html")    
     
