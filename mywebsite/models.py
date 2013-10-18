@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-class Projects(models.Model):
+class MyProjects(models.Model):
     name = models.CharField(max_length=20)
     description = models.TextField()
     techstack = models.TextField()
@@ -11,5 +11,5 @@ class Projects(models.Model):
     website_link = models.TextField()
     
     class Meta:
-        verbose_name_plural = "Projects"
+        verbose_name_plural = "My Projects"
   
