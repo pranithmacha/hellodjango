@@ -24,7 +24,7 @@ def contact(request):
                      send_mail(subject, message, sender, ['pranith@machaiswho.im'])
                  except BadHeaderError:
                      return HttpResponse('Invalid header found.')
-            return render_to_response('result.html',{'message':'thank you for posting'})
+             return render_to_response('result.html',{'message':'thank you for posting'})
     else:
         form = ContactForm() # An unbound form
     return render(request, 'contact.html', {'form': form})
