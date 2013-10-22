@@ -4,6 +4,7 @@ import AppClientConstants
 from django.template import RequestContext
 from MyForms import ContactForm
 from models import MyProjects
+from django.core.mail import send_mail, BadHeaderError
 
 
 def home(request):
