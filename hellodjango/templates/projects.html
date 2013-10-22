@@ -6,11 +6,12 @@
 <p>this is my projects page</p>
 
 {% for post in posts %}
-    name: {{post.name}}
-    description: {{post.description}}
-    techstack: {{post.techstack}}
-    git_link: {{post.git_link}}
-    website_link: {{website_link}}
+    name: {{post.name}}<br>
+    description: {{post.description}}<br>
+    techstack: {{post.techstack}}<br>
+    git_link: {{post.git_link}}<br>
+    website_link: {{website_link}}<br>
+	--------------------------------------------------------
 {% endfor%}
 
 {% endblock%}
