@@ -2,7 +2,7 @@
 from django.shortcuts import (render_to_response,HttpResponse,render)
 import AppClientConstants
 from django.template import RequestContext
-from MyForms import ContactForm
+from models import MyProjects
 
 
 def home(request):
@@ -15,6 +15,6 @@ def about_me(request):
     return render_to_response("about.html")
     
 def projects(request):
-    posts = ContactForm.objects.all()
+    posts = MyProjects.objects.all()
     return render_to_response("projects.html",{"posts":posts})    
     
