@@ -15,6 +15,6 @@ def about_me(request):
     return render_to_response("about.html")
     
 def projects(request):
-    posts = ContactForm.objects.adll()
+    posts = ContactForm.objects.all()
     return render_to_response("projects.html",{"posts":posts})    
     
