@@ -18,9 +18,16 @@ def contact(request):
     """
     if request.method == 'POST': # If the form has been submitted...
         form = ContactForm(request.POST) # A form bound to the POST data
-        if form.is_valid(): # All validation rules pass
-            # Process the data in form.cleaned_data
-            # ...
+        if form.is_valid():
+             # All validation rules pass
+             subject = request.POST.get('subject', '')
+             message = request.POST.get('message', '')
+             sender = request.POST.get('sender', '')
+             if subject and message and sender:
+                 try:
+                     send_mail(subject, message, sender, ['pranith@machaiswho.im'])
+                 except BadHeaderError:
+                     return HttpResponse('Invalid header found.')
             return render_to_response('result.html',{'message':'thank you for posting'})
     else:
         form = ContactForm() # An unbound form
