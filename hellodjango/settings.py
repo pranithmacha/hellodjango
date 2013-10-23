@@ -23,6 +23,8 @@ DATABASES = {
   }
 }
 
+# email setup 
+
 EMAIL_HOST = 'smtp.mandrillapp.com'
 
 EMAIL_HOST_USER = 'app17034182@heroku.com'
