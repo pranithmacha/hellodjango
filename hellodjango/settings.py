@@ -23,6 +23,14 @@ DATABASES = {
   }
 }
 
+EMAIL_HOST = 'smtp.mandrillapp.com'
+
+EMAIL_HOST_USER = 'app17034182@heroku.com'
+
+EMAIL_HOST_PASSWORD = 'AcuPDqUsND9Y6zkai0I6jA'
+
+EMAIL_PORT = '587'
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
