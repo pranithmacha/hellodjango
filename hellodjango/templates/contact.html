@@ -6,8 +6,8 @@
 
 <p> this is how you can contact me </p>
 
-<form action="/contact/" method="post">{% csrf_token %}
-{{ form.as_table }}
+<form action="/contact/" method="post" class="well">{% csrf_token %}
+{{ form.as_p }}<br>
 <input type="submit" value="Submit" />
 </form>
 
