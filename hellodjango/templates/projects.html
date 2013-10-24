@@ -3,12 +3,10 @@
 
 {% block content%}
 
-<p>this is my projects page</p>
-
 {% for post in posts %}
    <p class="lead"> name: {{post.name}}</p><br>
    <p class="lead"> description: {{post.description}}</p><br>
-    <p class="lead">techstack</p>: <code>{{post.techstack}}</code><br>
+   <p class="lead">techstack</p>:<code>{{post.techstack}}</code><br>
    <p class="lead"> git_link: {{post.git_link}}</p><br>
    <p class="lead"> website_link: {{website_link}}</p><br>
 	--------------------------------------------------------
