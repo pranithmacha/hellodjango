@@ -1,6 +1,5 @@
 # Create your views here.
 from django.shortcuts import (render_to_response,HttpResponse,render)
-import AppClientConstants
 from django.template import RequestContext
 from MyForms import ContactForm
 from models import MyProjects
