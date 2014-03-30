@@ -5,7 +5,6 @@ from django.template import RequestContext
 from MyForms import ContactForm
 from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
-import pytumblr
 import requests
 import AppConsts
 
@@ -38,7 +37,6 @@ def about_me(request):
 def blog(request):
     
     json_response = requests.get(AppConsts.URL).json()
-    
     # get the posts with metadata
     # extract out the 
     res = []
@@ -49,14 +47,12 @@ def blog(request):
     #print(str(type(res)))'
     my_blogs = res['posts']
   
-    # 
     #print(type(posts))
     actual_posts = []
     for blog in my_blogs:
         blog_dict = {}
         #content = post['body'].encode('ascii', 'xmlcharrefreplace')
         #title = post['title'].encode('ascii', 'xmlcharrefreplace')
-
         content = blog['body']
         title = blog['title']
         blog_dict['title'] = title
@@ -64,7 +60,6 @@ def blog(request):
         actual_posts.append(blog_dict)
     
     #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
-
     # Make the request
     #info = client.blog_info('pranithmacha')
     # Authenticate via API Key
