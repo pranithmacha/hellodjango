@@ -1,13 +1,6 @@
 # Django settings for hellodjango project.
 import AppConsts
 
-DB_NAME = 'ddknat961f8vha'
-DB_PORT = 5432
-DB_USERNAME = 'gtevispvblxlep'
-DB_PASSWORD = 'ClwRaufrQ1xU0NP3FHacGuxvaY'
-DB_HOST = 'ec2-54-225-102-116.compute-1.amazonaws.com'
-DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
-
 #DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
