@@ -1,0 +1,15 @@
+
+
+{% extends "base.html"%}
+
+{% block content%}
+
+{% for post in posts %}
+
+	  <code> <h2>{{post.title|safe}}</h2></code><br>
+	  {{post.content|safe}}<br>
+	    
+	
+{%endfor%}
+
+{% endblock%}

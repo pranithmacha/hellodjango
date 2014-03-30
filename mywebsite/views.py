@@ -5,6 +5,12 @@ from django.template import RequestContext
 from MyForms import ContactForm
 from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
+import pytumblr
+import requests
+import unicodedata
+import HTMLParser
+
+
 
 
 def home(request):
@@ -32,7 +38,52 @@ def contact(request):
 def about_me(request):
     return render_to_response("about.html")
     
+def blog(request):
+    API_KEY = 'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId'
+    url = "http://api.tumblr.com/v2/blog/pranithmacha.tumblr.com/posts/text?api_key="+API_KEY
+    
+    json_response = requests.get(url).json()
+    
+    # get the posts with metadata
+    # extract out the 
+    res = []
+    for key in json_response:
+        if 'response' in key:
+            res = json_response[key]
+            
+    #print(str(type(res)))'
+    posts = []
+    for k in res:
+        if 'posts' in k:
+            posts = res[k]
+            
+    # 
+    actual_posts = []
+    for post in posts:
+        dict = {}
+        #content = post['body'].encode('ascii', 'xmlcharrefreplace')
+        #title = post['title'].encode('ascii', 'xmlcharrefreplace')
+
+        content = post['body']
+        title = post['title']
+        print(type(title))
+        print(type(content))
+        dict['title'] = title
+        dict['content'] = content
+        actual_posts.append(dict)
+    
+    #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
+
+    # Make the request
+    #info = client.blog_info('pranithmacha')
+    # Authenticate via API Key
+    #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
+
+    # Make the request
+    #posts = client.posts('pranithmacha.tumblr.com')
+    return render_to_response("blog.html",{"posts":actual_posts})
+    
 def projects(request):
     posts = MyProjects.objects.all()
-    return render_to_response("projects.html",{"posts":posts})    
+    return render_to_response("projects.html",{"posts":dict})    
     

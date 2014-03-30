@@ -10,3 +10,9 @@
 			{{error}}
 </form>
 {% endblock%}
+
+{% for key,value in posts.items %}
+   <p class="lead"> key: {{key}}<br>
+   <code>value : {{value}}</code><br>
+   -----<br>
+{% endfor%}
