@@ -52,25 +52,24 @@ def blog(request):
             res = json_response[key]
             
     #print(str(type(res)))'
-    posts = []
+    blog_posts = []
     for k in res:
         if 'posts' in k:
-            posts = res[k]
+            blog_posts = res[k]
             
     # 
+    #print(type(posts))
     actual_posts = []
-    for post in posts:
-        dict = {}
+    for blog_post in blog_posts:
+        blog_dict = {}
         #content = post['body'].encode('ascii', 'xmlcharrefreplace')
         #title = post['title'].encode('ascii', 'xmlcharrefreplace')
 
-        content = post['body']
-        title = post['title']
-        print(type(title))
-        print(type(content))
-        dict['title'] = title
-        dict['content'] = content
-        actual_posts.append(dict)
+        content = blog_post['body']
+        title = blog_post['title']
+        blog_dict['title'] = title
+        blog_dict['content'] = content
+        actual_posts.append(blog_dict)
     
     #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
 
@@ -85,5 +84,5 @@ def blog(request):
     
 def projects(request):
     posts = MyProjects.objects.all()
-    return render_to_response("projects.html",{"posts":dict})    
+    return render_to_response("projects.html",{"posts":posts})    
     
