@@ -52,7 +52,7 @@ def blog(request):
             res = json_response[key]
             
     #print(str(type(res)))'
-    blog_posts = []
+    my_blogs = []
     for k in res:
         if 'posts' in k:
             blog_posts = res[k]
@@ -60,13 +60,13 @@ def blog(request):
     # 
     #print(type(posts))
     actual_posts = []
-    for blog_post in blog_posts:
+    for blog in my_blogs:
         blog_dict = {}
         #content = post['body'].encode('ascii', 'xmlcharrefreplace')
         #title = post['title'].encode('ascii', 'xmlcharrefreplace')
 
-        content = blog_post['body']
-        title = blog_post['title']
+        content = blog['body']
+        title = blog['title']
         blog_dict['title'] = title
         blog_dict['content'] = content
         actual_posts.append(blog_dict)
