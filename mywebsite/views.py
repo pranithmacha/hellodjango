@@ -7,10 +7,7 @@ from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
 import pytumblr
 import requests
-
-
-
-
+import AppConsts
 
 
 def home(request):
@@ -39,10 +36,8 @@ def about_me(request):
     return render_to_response("about.html")
     
 def blog(request):
-    API_KEY = 'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId'
-    url = "http://api.tumblr.com/v2/blog/pranithmacha.tumblr.com/posts/text?api_key="+API_KEY
     
-    json_response = requests.get(url).json()
+    json_response = requests.get(AppConstants.URL).json()
     
     # get the posts with metadata
     # extract out the 

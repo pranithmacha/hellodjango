@@ -1,6 +1,14 @@
 # Django settings for hellodjango project.
+import AppConsts
 
-DEBUG = True
+DB_NAME = 'ddknat961f8vha'
+DB_PORT = 5432
+DB_USERNAME = 'gtevispvblxlep'
+DB_PASSWORD = 'ClwRaufrQ1xU0NP3FHacGuxvaY'
+DB_HOST = 'ec2-54-225-102-116.compute-1.amazonaws.com'
+DB_ENGINE = 'django.db.backends.postgresql_psycopg2'
+
+#DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 import os 
@@ -14,12 +22,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
   'default': {
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'ddknat961f8vha',
-    'HOST': 'ec2-54-225-102-116.compute-1.amazonaws.com',
-    'PORT': 5432,
-    'USER': 'gtevispvblxlep',
-    'PASSWORD': 'ClwRaufrQ1xU0NP3FHacGuxvaY'
+    'ENGINE': AppConsts.DB_ENGINE,
+    'NAME': AppConsts.DB_NAME,
+    'HOST': AppConsts.DB_HOST,
+    'PORT': AppConsts.DB_PORT,
+    'USER': AppConsts.DB_USERNAME,
+    'PASSWORD': AppConsts.DB_PASSWORD
   }
 }
 
