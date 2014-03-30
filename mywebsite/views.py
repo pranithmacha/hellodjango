@@ -7,8 +7,8 @@ from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
 import pytumblr
 import requests
-import unicodedata
-import HTMLParser
+
+
 
 
 
@@ -55,7 +55,7 @@ def blog(request):
     my_blogs = []
     for k in res:
         if 'posts' in k:
-            blog_posts = res[k]
+            my_blogs = res[k]
             
     # 
     #print(type(posts))
