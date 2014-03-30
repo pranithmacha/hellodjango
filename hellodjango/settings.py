@@ -2,7 +2,7 @@
 import AppConsts
 
 #DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+#TEMPLATE_DEBUG = DEBUG
 
 import os 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
