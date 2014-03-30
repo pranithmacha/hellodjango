@@ -52,11 +52,8 @@ def blog(request):
             res = json_response[key]
             
     #print(str(type(res)))'
-    my_blogs = []
-    for k in res:
-        if 'posts' in k:
-            my_blogs = res[k]
-            
+    my_blogs = res['posts']
+  
     # 
     #print(type(posts))
     actual_posts = []
