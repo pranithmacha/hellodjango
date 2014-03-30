@@ -37,7 +37,7 @@ def about_me(request):
     
 def blog(request):
     
-    json_response = requests.get(AppConstants.URL).json()
+    json_response = requests.get(AppConsts.URL).json()
     
     # get the posts with metadata
     # extract out the 
