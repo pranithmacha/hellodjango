@@ -69,8 +69,8 @@ def blog(request):
     return render_to_response("blog.html",{"posts":actual_posts})
     
 def physics(request):
-    
-    return render_to_response("physics.html") 
+    links = {"Friction":"http://www.youtube.com/watch?v=C7NPD9W0kro","types of friction":"http://www.youtube.com/watch?v=9XtGJXVnQxk","Sound":"http://www.youtube.com/watch?v=wI3ZJwkD-Fc"}
+    return render_to_response("physics.html",{"links":links}) 
     
 def projects(request):
     posts = MyProjects.objects.all()
