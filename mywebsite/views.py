@@ -68,6 +68,10 @@ def blog(request):
     #posts = client.posts('pranithmacha.tumblr.com')
     return render_to_response("blog.html",{"posts":actual_posts})
     
+def physics(request):
+    
+    return render_to_response("physics.html") 
+    
 def projects(request):
     posts = MyProjects.objects.all()
     return render_to_response("projects.html",{"posts":posts})    
