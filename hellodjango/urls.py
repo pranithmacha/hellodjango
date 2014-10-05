@@ -18,11 +18,11 @@ urlpatterns = patterns('',
     url(r'^about$', 'mywebsite.views.about_me', name='about me'),
     url(r'^contact$', 'mywebsite.views.contact', name='contact'), 
     url(r'^blog$', 'mywebsite.views.blog', name='contact'), 
-    url(r'^contact/*$', 'mywebsite.views.contact', name='contact'),  
-    url(r'^physics/*$', 'mywebsite.views.physics', name='physics'),  
-    (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
+    url(r'^contact/*$', 'mywebsite.views.contact', name='contact'),   
+    url(r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': BASE_DIR+'/templates/'}),
-    
+    url(r'^500/$', 'mywebsite.views.error_handler',name='error_page')
+    # url(r'^physics/*$', 'mywebsite.views.physics', name='physics'), 
     # url(r'^$', 'hellodjango.views.home', name='home'),
     # url(r'^hellodjango/', include('hellodjango.foo.urls')),
 

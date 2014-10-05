@@ -5,7 +5,8 @@ from MyForms import ContactForm
 from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
 import requests
-import AppConsts
+from hellodjango import AppConsts
+import manage
 
 
 def home(request):
@@ -67,12 +68,11 @@ def blog(request):
     # Make the request
     #posts = client.posts('pranithmacha.tumblr.com')
     return render_to_response("blog.html",{"posts":actual_posts})
-    
-def physics(request):
-    links = {"Friction":"http://www.youtube.com/watch?v=C7NPD9W0kro","types of friction":"http://www.youtube.com/watch?v=9XtGJXVnQxk","Sound":"http://www.youtube.com/watch?v=wI3ZJwkD-Fc"}
-    return render_to_response("physics.html",{"links":links}) 
-    
+
 def projects(request):
     posts = MyProjects.objects.all()
-    return render_to_response("projects.html",{"posts":posts})    
+    return render_to_response("projects.html",{"posts":posts}) 
+    
+def error_handler(request):
+    return render_to_response("500.html")   
     
