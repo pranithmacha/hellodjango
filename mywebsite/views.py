@@ -7,10 +7,25 @@ from django.core.mail import send_mail, BadHeaderError
 import requests
 from hellodjango import AppConsts
 import manage
+import logging
+import pytumblr
+
+logger = logging.getLogger(__name__)
 
 
+def mywebsite_logger(f):
+    def logger_func(request):
+        logger.debug(' beginning ')
+        return f(request)
+        #logger.debug(' ending ')       
+    return logger_func
+
+
+@mywebsite_logger
 def home(request):
+    logger.debug('this is my new log message !!')
     return render_to_response("myhomepage.html")
+
 
 def contact(request):
     if request.method == 'POST': 
@@ -30,49 +45,47 @@ def contact(request):
     else:
         form = ContactForm() # An unbound form
     return render(request, 'contact.html', {'form': form})
-    
+
+
 def about_me(request):
     return render_to_response("about.html")
-    
-def blog(request):
-    
-    json_response = requests.get(AppConsts.URL).json()
-    # get the posts with metadata
-    # extract out the 
-    res = []
-    for key in json_response:
-        if 'response' in key:
-            res = json_response[key]
-            
-    #print(str(type(res)))'
-    my_blogs = res['posts']
-  
-    #print(type(posts))
-    actual_posts = []
-    for blog in my_blogs:
-        blog_dict = {}
-        #content = post['body'].encode('ascii', 'xmlcharrefreplace')
-        #title = post['title'].encode('ascii', 'xmlcharrefreplace')
-        content = blog['body']
-        title = blog['title']
-        blog_dict['title'] = title
-        blog_dict['content'] = content
-        actual_posts.append(blog_dict)
-    
-    #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
-    # Make the request
-    #info = client.blog_info('pranithmacha')
-    # Authenticate via API Key
-    #client = pytumblr.TumblrRestClient('zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId')
 
-    # Make the request
-    #posts = client.posts('pranithmacha.tumblr.com')
-    return render_to_response("blog.html",{"posts":actual_posts})
+
+def blog(request):
+    blog_posts = tumblr_client().posts('pranithmacha.tumblr.com')['posts']
+    my_posts = []
+    for post in blog_posts:
+        try:
+            my_post = {}
+            my_post['title'] = str(post['title'])
+            my_post['url'] = post['post_url']
+            my_posts.append(my_post)
+        except Exception as e:
+            logger.info(e)
+            print e
+            pass
+    return render_to_response("blog.html", {"my_posts": my_posts})
+
 
 def projects(request):
     posts = MyProjects.objects.all()
-    return render_to_response("projects.html",{"posts":posts}) 
-    
-def error_handler(request):
-    return render_to_response("500.html")   
-    
+    return render_to_response("projects.html", {"posts": posts})
+
+
+def error500_handler(request):
+    return render_to_response("500.html") 
+
+
+def error404_handler(request):
+    return render_to_response("404.html") 
+
+
+def tumblr_client():
+    client = pytumblr.TumblrRestClient(
+  'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId',
+  'ajdlmAP6EdOZA2J2xkaPE6sOkMuQn80NZft7RoxgCxwcaRcUZk',
+  'hpYYBkq4esqAKUgp2A3czNqYIaZG78kUvnhFG9VUNT0EylWedP',
+  'LktJK59A7zMHeXdrJ5UZeBgcgkOY7oDCBeKuUk89Y0zjFQgM8W'
+   )
+    return client
+

@@ -4,12 +4,10 @@
 
 {% block content%}
 
-{% for post in posts %}
+{% for post in my_posts %}
 
-	  <code> <h2>{{post.title|safe}}</h2></code><br>
-	  <p class="lead">{{post.content|safe}}</p><br>
-	    
-	
+	  <a href="{{post.url}}"><code><h2>{{post.title}}</h2></code></a><br>
+
 {%endfor%}
 
 {% endblock%}
