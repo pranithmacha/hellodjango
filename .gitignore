@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 venv
 *.pyc
 staticfiles
@@ -7,4 +7,7 @@ staticfiles
 *.pot
 *.pyc
 local_settings.py
->>>>>>> 94df1fc4d7ae976f5c214b3575924bbe327f23a9
+.xml
+.lml
+.DS_Store
+
