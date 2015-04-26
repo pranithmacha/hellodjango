@@ -1,7 +1,7 @@
 # Django settings for hellodjango project.
 import AppConsts
 
-DEBUG = False
+DEBUG = True
 #TEMPLATE_DEBUG = DEBUG
 
 import os 

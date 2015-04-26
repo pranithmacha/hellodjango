@@ -81,6 +81,10 @@ def blog(request):
     return render_to_response("blog.html", {"my_posts": my_posts})
 
 
+def blogname(name):
+    print("the name sent is", name)
+
+
 def projects(request):
     posts = MyProjects.objects.all()
     return render_to_response("projects.html", {"posts": posts})
