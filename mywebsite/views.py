@@ -5,9 +5,13 @@ from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
 import logging
 import pytumblr
+import requests
 
 logger = logging.getLogger(__name__)
-blog_posts = []
+global blog_posts
+#blog_posts = []
+API_KEY = 'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId'
+URL = "http://api.tumblr.com/v2/blog/pranithmacha.tumblr.com/posts?"
 
 
 def mywebsite_logger(f):
@@ -20,7 +24,9 @@ def mywebsite_logger(f):
 
 @mywebsite_logger
 def home(request):
-    blog_posts = tumblr_client().posts('pranithmacha.tumblr.com')['posts']
+    #python_posts = tumblr_client().tagged('python')
+    #blog_posts.extend(tumblr_client().posts('pranithmacha.tumblr.com')['posts'])
+    #blog_posts.extend(tumblr_client().tagged('django')['posts'])
     return render_to_response("myhomepage.html")
 
 
@@ -54,6 +60,14 @@ def blog_main(request):
 
 
 def blog(request):
+    try:
+        payload = {'api_key': API_KEY, 'tag': 'pythondjango'}
+        response = requests.get(URL, params=payload).json()
+    except Exception as err:
+        print(err)
+    #requests.get()
+    #blog_posts.extend(tumblr_client().tagged('django')['posts'])
+    #blog_posts = tumblr_client().tagged('django')
     my_posts = []
     for post in blog_posts:
         try:
@@ -62,6 +76,8 @@ def blog(request):
         except Exception as e:
             logger.info(e)
             pass
+    t = {}
+    t.g
     return render_to_response("blog.html", {"my_posts": my_posts})
 
 
