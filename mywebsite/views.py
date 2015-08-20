@@ -1,6 +1,6 @@
 # Create your views here.
 from django.shortcuts import (render_to_response, HttpResponse, render)
-from MyForms import ContactForm
+from my_forms import ContactForm
 from models import MyProjects
 from django.core.mail import send_mail, BadHeaderError
 import logging
@@ -56,6 +56,7 @@ def about_me(request):
 
 def blog_main(request):
     logger.info("rendering the main blog page")
+
     return render_to_response("blog_main.html")
 
 
@@ -81,8 +82,10 @@ def blog(request):
     return render_to_response("blog.html", {"my_posts": my_posts})
 
 
-def blogname(name):
-    print("the name sent is", name)
+def blogname(blog_name):
+    print("the name sent is", blog_name)
+    if blog_name == "fiona":
+        return render_to_response("myhomepage.html")
 
 
 def projects(request):

@@ -1,5 +1,4 @@
 from django.conf.urls import (patterns, include, url)
-from mywebsite import views
 import settings
 from django.contrib import admin
 
@@ -19,9 +18,8 @@ urlpatterns = patterns('',
     url(r'^projects$', 'mywebsite.views.projects', name='projects'),
     url(r'^about$', 'mywebsite.views.about_me', name='about me'),
     url(r'^contact$', 'mywebsite.views.contact', name='contact'), 
-    url(r'^blog$', 'mywebsite.views.blog_main', name='blog'),
-    url(r'^blog/(?P<name>)$', 'mywebsite.views.blogname', name='blog'),
-    url(r'^contact/*$', 'mywebsite.views.contact', name='contact'),
+    url(r'^blog_main$', 'mywebsite.views.blog_main', name='blog'),
+    url(r'^blog', 'mywebsite.views.blog', name='blog'),
     url(r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': BASE_DIR+'/templates/'}),
     
