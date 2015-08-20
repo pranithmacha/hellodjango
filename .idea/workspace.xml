@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d822be05-1974-4012-9415-e5aa38692bf1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.mysite.log.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mywebsite/Constants.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mywebsite/untitled.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/views.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hellodjango/AppConsts.py" afterPath="$PROJECT_DIR$/hellodjango/db_constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mywebsite/AppClientConstants.py" afterPath="$PROJECT_DIR$/mywebsite/validation_constants.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mywebsite/MyForms.py" afterPath="$PROJECT_DIR$/mywebsite/my_forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/admin.py" afterPath="$PROJECT_DIR$/hellodjango/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/base.html" afterPath="$PROJECT_DIR$/hellodjango/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/blog_main.html" afterPath="$PROJECT_DIR$/hellodjango/templates/blog_main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/contact.html" afterPath="$PROJECT_DIR$/hellodjango/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hellodjango.iml" afterPath="$PROJECT_DIR$/.idea/hellodjango.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywebsite/models.py" afterPath="$PROJECT_DIR$/mywebsite/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/settings.py" afterPath="$PROJECT_DIR$/hellodjango/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/urls.py" afterPath="$PROJECT_DIR$/hellodjango/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywebsite/views.py" afterPath="$PROJECT_DIR$/mywebsite/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hellodjango.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hellodjango/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="7" selection-start="188" selection-end="188" vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.4039548" vertical-offset="52" max-vertical-offset="660">
+            <state line="20" column="57" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="555">
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -151,8 +130,8 @@
         <option value="$PROJECT_DIR$/hellodjango/admin.py" />
         <option value="$PROJECT_DIR$/hellodjango/settings.py" />
         <option value="$PROJECT_DIR$/mywebsite/views.py" />
-        <option value="$PROJECT_DIR$/hellodjango/templates/contact.html" />
         <option value="$PROJECT_DIR$/hellodjango/urls.py" />
+        <option value="$PROJECT_DIR$/hellodjango/templates/contact.html" />
       </list>
     </option>
   </component>
@@ -1003,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="4020">
@@ -1026,10 +998,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.4039548" vertical-offset="52" max-vertical-offset="660">
+        <state line="20" column="57" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="555">
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="188" selection-end="188" vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="330">
+          <folding />
         </state>
       </provider>
     </entry>
