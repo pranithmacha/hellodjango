@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d822be05-1974-4012-9415-e5aa38692bf1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.mysite.log.swp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mywebsite/Constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mywebsite/untitled.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nike/views.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hellodjango/AppConsts.py" afterPath="$PROJECT_DIR$/hellodjango/db_constants.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mywebsite/AppClientConstants.py" afterPath="$PROJECT_DIR$/mywebsite/validation_constants.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mywebsite/MyForms.py" afterPath="$PROJECT_DIR$/mywebsite/my_forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/admin.py" afterPath="$PROJECT_DIR$/hellodjango/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/base.html" afterPath="$PROJECT_DIR$/hellodjango/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/blog_main.html" afterPath="$PROJECT_DIR$/hellodjango/templates/blog_main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/templates/contact.html" afterPath="$PROJECT_DIR$/hellodjango/templates/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hellodjango.iml" afterPath="$PROJECT_DIR$/.idea/hellodjango.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywebsite/models.py" afterPath="$PROJECT_DIR$/mywebsite/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/settings.py" afterPath="$PROJECT_DIR$/hellodjango/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellodjango/urls.py" afterPath="$PROJECT_DIR$/hellodjango/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywebsite/views.py" afterPath="$PROJECT_DIR$/mywebsite/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,8 +36,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hellodjango$cutepup.coverage" NAME="cutepup Coverage Results" MODIFIED="1432300533496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/Pups/dogpups" />
     <SUITE FILE_PATH="coverage/hellodjango$reverse_polish_notation.coverage" NAME="reverse_polish_notation Coverage Results" MODIFIED="1422148490754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/CodeGeek/geek/codes" />
+    <SUITE FILE_PATH="coverage/hellodjango$crypto.coverage" NAME="crypto Coverage Results" MODIFIED="1435540272535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/practice" />
     <SUITE FILE_PATH="coverage/hellodjango$trick_named_tuple.coverage" NAME="trick_named_tuple Coverage Results" MODIFIED="1421808737115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/practice" />
+    <SUITE FILE_PATH="coverage/hellodjango$listpup.coverage" NAME="listpup Coverage Results" MODIFIED="1435717567004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/Pups/dogpups" />
     <SUITE FILE_PATH="coverage/hellodjango$test.coverage" NAME="test Coverage Results" MODIFIED="1422232264035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/practice" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,19 +55,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reverse_polish_notation.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/CodeGeek/geek/codes/reverse_polish_notation.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="750">
+            <state line="80" column="7" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="1665">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/practice/test.py">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellodjango/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.29339853" vertical-offset="0" max-vertical-offset="600">
+            <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.4039548" vertical-offset="52" max-vertical-offset="660">
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellodjango/templates/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="19" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-1.8333334" vertical-offset="1186" max-vertical-offset="2115">
               <folding />
             </state>
           </provider>
@@ -75,20 +133,33 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/mysite.log" />
         <option value="$PROJECT_DIR$/hellodjango/templates/blog_main.html" />
-        <option value="$PROJECT_DIR$/hellodjango/settings.py" />
         <option value="$PROJECT_DIR$/hellodjango/templates/base.html" />
-        <option value="$PROJECT_DIR$/hellodjango/urls.py" />
-        <option value="$PROJECT_DIR$/mywebsite/views.py" />
         <option value="$USER_HOME$/Desktop/practice/trick_named_tuple.py" />
         <option value="$USER_HOME$/PycharmProjects/CodeGeek/geek/codes/reverse_polish_notation.py" />
         <option value="$USER_HOME$/Desktop/practice/test.py" />
+        <option value="$USER_HOME$/PycharmProjects/Pups/dogpups/dna_sequence.py" />
+        <option value="$USER_HOME$/PycharmProjects/Pups/dogpups/cutepup.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/settings.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/search/views.py" />
+        <option value="$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/views.py" />
+        <option value="$PROJECT_DIR$/nike/views.py" />
+        <option value="$USER_HOME$/Desktop/practice/crypto.py" />
+        <option value="$USER_HOME$/PycharmProjects/Pups/dogpups/listpup.py" />
+        <option value="$USER_HOME$/PycharmProjects/Pups/dogpups/decoratorpup.py" />
+        <option value="$PROJECT_DIR$/hellodjango/AppConsts.py" />
+        <option value="$PROJECT_DIR$/mywebsite/models.py" />
+        <option value="$PROJECT_DIR$/hellodjango/admin.py" />
+        <option value="$PROJECT_DIR$/hellodjango/settings.py" />
+        <option value="$PROJECT_DIR$/mywebsite/views.py" />
+        <option value="$PROJECT_DIR$/hellodjango/templates/contact.html" />
+        <option value="$PROJECT_DIR$/hellodjango/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="719" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -116,7 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,11 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CodeGeek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geek" />
+              <option name="myItemId" value="Pups" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,15 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CodeGeek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="hellodjango" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -163,12 +221,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mywebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellodjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,11 +271,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -192,7 +288,7 @@
       <recent name="$PROJECT_DIR$/hellodjango/templates/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Django server.hellodjango">
     <configuration default="false" name="reverse_polish_notation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,6 +322,63 @@
       <module name="practice" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/practice/test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cutepup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Pups/dogpups" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pups" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Pups/dogpups/cutepup.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="crypto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/practice/crypto.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="listpup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Pups/dogpups" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pups" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Pups/dogpups/listpup.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -466,16 +619,22 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Django server.hellodjango" />
       <item index="1" class="java.lang.String" itemvalue="Python.trick_named_tuple" />
       <item index="2" class="java.lang.String" itemvalue="Python.reverse_polish_notation" />
       <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cutepup" />
+      <item index="5" class="java.lang.String" itemvalue="Python.crypto" />
+      <item index="6" class="java.lang.String" itemvalue="Python.listpup" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.reverse_polish_notation" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.listpup" />
+        <item index="1" class="java.lang.String" itemvalue="Python.crypto" />
+        <item index="2" class="java.lang.String" itemvalue="Python.cutepup" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.reverse_polish_notation" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +665,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="719" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,20 +673,40 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20859376" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29483038" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35220125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29483038" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35220125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -544,310 +723,313 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/mywebsite/views.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="46" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="2548" selection-end="2548" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="40" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="45" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="4230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="29" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="4" selection-start="2521" selection-end="2521" vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="4230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="0" selection-start="7900" selection-end="7900" vertical-scroll-proportion="0.0" vertical-offset="2565" max-vertical-offset="4020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/AppConsts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.53867406" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2652733" vertical-offset="0" max-vertical-offset="622" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.46753246" vertical-offset="0" max-vertical-offset="385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.35064936" vertical-offset="0" max-vertical-offset="385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="54" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.56623375" vertical-offset="1237" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.5232274" vertical-offset="116" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellodjango/templates/myhomepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/pytumblr/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="8" selection-start="4308" selection-end="4308" vertical-scroll-proportion="1.1461412" vertical-offset="907" max-vertical-offset="8145" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="8" selection-start="7126" selection-end="7126" vertical-scroll-proportion="0.24861878" vertical-offset="3030" max-vertical-offset="7365" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.28939828" vertical-offset="544" max-vertical-offset="1890" />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="-0.3448276" vertical-offset="1710" max-vertical-offset="4020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="7" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.37845305" vertical-offset="958" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="74" selection-start="7180" selection-end="7180" vertical-scroll-proportion="0.4340836" vertical-offset="2610" max-vertical-offset="10575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/practice/trick_named_tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="155" selection-end="155" vertical-scroll-proportion="0.1688103" vertical-offset="0" max-vertical-offset="622">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/CodeGeek/geek/codes/reverse_polish_notation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/practice/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.29339853" vertical-offset="0" max-vertical-offset="600">
+        <state line="24" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Pups/dogpups/dna_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="151" selection-end="151" vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="498" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Pups/dogpups/cutepup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="8" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/requirements.pip">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.39156628" vertical-offset="0" max-vertical-offset="498" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="30" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/activities/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="20" selection-start="3371" selection-end="3371" vertical-scroll-proportion="0.45180723" vertical-offset="1020" max-vertical-offset="2160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/activities/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/activities/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="79" selection-start="1399" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/templates/questions/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="12" selection-start="1720" selection-end="1720" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="1035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/templates/questions/questions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/templates/questions/partial_question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.75" vertical-offset="186" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/templates/questions/partial_answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-5.75" vertical-offset="87" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/search/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/search/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/search/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="498" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="783" selection-end="783" vertical-scroll-proportion="0.22680412" vertical-offset="220" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="601" selection-end="601" vertical-scroll-proportion="0.32554257" vertical-offset="0" max-vertical-offset="599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/templates/questions/ask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/questions/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="40" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.0" vertical-offset="1407" max-vertical-offset="2070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/feeds/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/feeds/templates/feeds/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5478261" vertical-offset="0" max-vertical-offset="575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/bootcamp/feeds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/practice/crypto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/crypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="32" selection-start="806" selection-end="806" vertical-scroll-proportion="0.061564058" vertical-offset="353" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/596071422/crypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09983361" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="417" column="30" selection-start="14302" selection-end="14302" vertical-scroll-proportion="0.46153846" vertical-offset="6024" max-vertical-offset="15720" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Pups/dogpups/listpup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Pups/dogpups/decoratorpup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/my_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/validations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.2713816" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.5859375" vertical-offset="0" max-vertical-offset="384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/validation_constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="164" selection-end="164" vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="384">
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/db_constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="205" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="429" selection-end="429" vertical-scroll-proportion="0.3125" vertical-offset="195" max-vertical-offset="3645">
+          <folding>
+            <element signature="e#43#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="19" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-1.8333334" vertical-offset="1186" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="4020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywebsite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellodjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.4039548" vertical-offset="52" max-vertical-offset="660">
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

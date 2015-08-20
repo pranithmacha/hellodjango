@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/PycharmProjects/CodeGeek/.idea/CodeGeek.iml" filepath="$USER_HOME$/PycharmProjects/CodeGeek/.idea/CodeGeek.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Pups/.idea/Pups.iml" filepath="$USER_HOME$/PycharmProjects/Pups/.idea/Pups.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Django_Projects/bootcamp-master/.idea/bootcamp-master.iml" filepath="$PROJECT_DIR$/../Django_Projects/bootcamp-master/.idea/bootcamp-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hellodjango.iml" filepath="$PROJECT_DIR$/.idea/hellodjango.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/practice/.idea/practice.iml" filepath="$USER_HOME$/Desktop/practice/.idea/practice.iml" />
     </modules>

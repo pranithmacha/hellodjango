@@ -2,7 +2,11 @@
 import os
 import sys
 
-print(" loaded the manage file !!")
+base = os.path.dirname(os.path.dirname(__file__)) 
+base_parent = os.path.dirname(base) 
+sys.path.append(base) 
+sys.path.append(base_parent)
+
 if __name__ == "__main__":
     
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hellodjango.settings")
