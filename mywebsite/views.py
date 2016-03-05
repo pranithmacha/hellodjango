@@ -10,8 +10,8 @@ import requests
 logger = logging.getLogger(__name__)
 global blog_posts
 #blog_posts = []
-API_KEY = 'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId'
-URL = "http://api.tumblr.com/v2/blog/pranithmacha.tumblr.com/posts?"
+API_KEY = ''
+URL = ""
 
 
 def mywebsite_logger(f):
@@ -41,7 +41,7 @@ def contact(request):
             sender = request.POST.get('sender', '')
             if subject and message and sender:
                 try:
-                    send_mail(subject, message, sender, ['pranith@machaiswho.im'])
+                    send_mail(subject, message, sender, [''])
                 except BadHeaderError:
                     return HttpResponse('Invalid header found.')
             return render_to_response('result.html', {'message': 'thank you for posting'})
@@ -115,9 +115,6 @@ def error404_handler(request):
 
 def tumblr_client():
     client = pytumblr.TumblrRestClient(
-        'zkZFT9i4OcAGcX158CWtJWPFgArki4mldNqzUkmnHI6FnUmwId',
-        'ajdlmAP6EdOZA2J2xkaPE6sOkMuQn80NZft7RoxgCxwcaRcUZk',
-        'hpYYBkq4esqAKUgp2A3czNqYIaZG78kUvnhFG9VUNT0EylWedP',
-        'LktJK59A7zMHeXdrJ5UZeBgcgkOY7oDCBeKuUk89Y0zjFQgM8W'
+
     )
     return client
