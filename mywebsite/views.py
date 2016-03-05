@@ -62,23 +62,35 @@ def blog_main(request):
 
 def blog(request):
     try:
-        payload = {'api_key': API_KEY, 'tag': 'pythondjango'}
+        #payload = {'api_key': API_KEY, 'tag': 'pythondjango'}
+        payload = {'api_key': API_KEY}
         response = requests.get(URL, params=payload).json()
     except Exception as err:
         print(err)
     #requests.get()
     #blog_posts.extend(tumblr_client().tagged('django')['posts'])
-    #blog_posts = tumblr_client().tagged('django')
+    #print(response["response"]["posts"])
+
+    blog_posts = response["response"]["posts"]
+    """
+    for blog in blogs:
+        print("title")
+        print("-"*40)
+        print(blog["title"])
+        print("body")
+        print("-"*40)
+        print(blog["body"])
+        print("="*80)
+        blog_posts = tumblr_client().tagged('django')
+    """
     my_posts = []
     for post in blog_posts:
         try:
-            my_post = {'title': str(post['title']), 'url': post['post_url']}
+            my_post = {'title': str(post['title']), 'body': post['body'], 'url': post['post_url']}
             my_posts.append(my_post)
         except Exception as e:
             logger.info(e)
             pass
-    t = {}
-    t.g
     return render_to_response("blog.html", {"my_posts": my_posts})
 
 

@@ -7,6 +7,7 @@
 {% for post in my_posts %}
 
 	  <a href="{{post.url}}"><code><h2>{{post.title}}</h2></code></a><br>
+    <p>{{ post.body | safe}}</p>
 
 {%endfor%}
 
