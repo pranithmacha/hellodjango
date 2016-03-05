@@ -9,11 +9,22 @@ DEBUG = True
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 ADMINS = (
-    ('', ''),
+    ('macha', 'pranith@machaiswho.im'),
 )
 
 MANAGERS = ADMINS
-
+"""
+DATABASES = {
+  'default': {
+    'ENGINE': db_constants.DB_ENGINE,
+    'NAME': db_constants.DB_NAME,
+    'HOST': db_constants.DB_HOST,
+    'PORT': db_constants.DB_PORT,
+    'USER': db_constants.DB_USERNAME,
+    'PASSWORD': db_constants.DB_PASSWORD
+  }
+}
+"""
 
 DATABASES = {
     'default': {
@@ -28,11 +39,11 @@ DATABASES = {
 
 # email setup 
 
-EMAIL_HOST = ''
+EMAIL_HOST = 'smtp.mandrillapp.com'
 
-EMAIL_HOST_USER = ''
+EMAIL_HOST_USER = 'app17034182@heroku.com'
 
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_PASSWORD = 'AcuPDqUsND9Y6zkai0I6jA'
 
 EMAIL_PORT = '587'
 
