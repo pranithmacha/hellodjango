@@ -1,14 +1,14 @@
 
-
 {% extends "base.html"%}
 
 {% block content%}
 
 {% for post in my_posts %}
+   <p class="lead">
+    <a href="{{post.url}}"><code><h2>{{post.title}}</h2></code></a><br>
 
-	  <a href="{{post.url}}"><code><h2>{{post.title}}</h2></code></a><br>
-    <p>{{ post.body | safe}}</p>
+    {{ post.body | safe}}</p><br>
 
-{%endfor%}
+{% endfor%}
 
 {% endblock%}
